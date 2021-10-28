@@ -1,15 +1,20 @@
 const options = [
 	{
-		key: 'mailbox',
-		label: 'sidebar.email',
+		key: '1',
+		label: 'Dashboard',
 		leftIcon: 'ion-android-mail',
 	},
 	{
-		key: 'chat',
-		label: 'sidebar.chat',
-		leftIcon: 'ion-chatbubbles',
+		key: '2',
+		label: 'Menu',
+		leftIcon: 'ion-android-restaurant',
 	},
-	// {
+	{
+		key: '3',
+		label: 'Delivery',
+		leftIcon: 'ion-bag',
+	},
+/* 	// {
 	//   key: 'quiz',
 	//   label: 'sidebar.quiz',
 	//   leftIcon: 'ion-chatbubbles',
@@ -363,6 +368,6 @@ const options = [
 		key: 'blank_page',
 		label: 'sidebar.blankPage',
 		leftIcon: 'ion-document',
-	},
+	}, */
 ];
 export default options;

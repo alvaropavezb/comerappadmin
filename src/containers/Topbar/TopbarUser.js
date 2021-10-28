@@ -18,7 +18,7 @@ export default function TopbarUser() {
 
   const content = (
     <TopbarDropdownWrapper className="isoUserDropdown">
-      <Link className="isoDropdownLink" to={'/dashboard/my-profile'}>
+      {/* <Link className="isoDropdownLink" to={'/dashboard/my-profile'}>
         <IntlMessages id="topbar.myprofile" />
       </Link>
       <a className="isoDropdownLink" href="# ">
@@ -29,7 +29,7 @@ export default function TopbarUser() {
       </a>
       <a className="isoDropdownLink" href="# ">
         <IntlMessages id="topbar.help" />
-      </a>
+      </a> */}
       <div className="isoDropdownLink" onClick={() => dispatch(logout())}>
         <IntlMessages id="topbar.logout" />
       </div>

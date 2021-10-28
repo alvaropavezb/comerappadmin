@@ -50,12 +50,12 @@ export default function Dashboard() {
             }}
           >
             <Content className="isomorphicContent" style={styles.content}>
-              <DashboardRoutes />
+             {/*  <DashboardRoutes /> */}
             </Content>
             <Footer style={styles.footer}>{siteConfig.footerText}</Footer>
           </Layout>
         </Layout>
-        <ThemeSwitcher />
+       
       </Layout>
     </DashboardContainer>
   );
