@@ -1,6 +1,6 @@
 import React from 'react';
 import { Chart } from 'frappe-charts/dist/frappe-charts.min.esm';
-import 'frappe-charts/dist/frappe-charts.min.css';
+import 'frappe-charts/src/css/charts.scss';
 export default function FrappeChart({ onSelect, ...props }) {
   const ref = React.useRef(null);
   const chart = React.useRef(null);
